@@ -76,6 +76,18 @@ body {
 	height: 300px;
 }
 
+.social-links {
+	position: absolute;
+	top: 245px;
+	left: 660px;
+	z-index: 300;
+}
+
+.social-links .icons {
+	margin-left: 5px;
+	width: 50px;
+}
+
 .mainnav {
 	position: absolute;
 	top: 300px;
@@ -181,6 +193,11 @@ footer {
 	font-family: 'Tenor Sans';
 	color: white;
 	font-size: 12px;
+}
+
+#footer-text a {
+	text-decoration: none;
+	color: white;
 }
 
 .twitterfeed {
