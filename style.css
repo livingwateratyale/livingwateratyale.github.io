@@ -142,11 +142,14 @@ img.icons:hover {
 	text-decoration: none;
 	color: #000000;
 	z-index: 500;
+	height: 30px;
+	line-height: 30px;
 }
 
 .mainnav a:hover {
 	color: #1C94FC;
 	z-index: 500;
+	height: 30px;
 }
 
 
