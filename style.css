@@ -103,6 +103,7 @@ img.icons:hover {
 	left: 0px;
 	display: inline;
 	width: 900px;
+	border: 0px;
 	background-color: #FFFFFF;
 	font-family: Lovelo_Black, Sintony;
 	font-weight: normal;
@@ -111,7 +112,7 @@ img.icons:hover {
 	line-height: 30px;
 	height: 30px;
 	list-style-type: none;
-	margin: 0 auto;
+	margin: 0 auto 0;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
@@ -125,6 +126,8 @@ img.icons:hover {
 	padding-left: 25px;
 	margin: 0;
 	height: 30px;
+	line-height:30px;
+	border: 0px;
 }
 
 .mainnav ul li.first {
@@ -134,6 +137,7 @@ img.icons:hover {
  	padding-left: 0px;
  	line-height: 30px;
  	height: 30px;
+ 	border: 0px;
  }
 
 .mainnav a {
@@ -148,6 +152,7 @@ img.icons:hover {
 	color: #1C94FC;
 	z-index: 500;
 	height: 30px;
+	border: 0px;
 }
 
 
@@ -166,10 +171,10 @@ img.icons:hover {
 	width: 400px;
 	height: 250px;
 	float: left;
-	margin: 20px;
+	margin: 40px;
 	display: block;
 	font-size: 14px;
-	border: none;
+	border: 0px;
 	text-align: justify;
 	font-family: 'Raleway', sans-serif;
 	z-index: 30;
@@ -217,9 +222,9 @@ footer {
 
 .twitterfeed {
 	display: inline-block;
-	width: 400px;
+	width: 350px;
 	height: 300px;
-	margin: 20px;
+	margin: 40px 40px 0px 0px;
 }
 
 #ourtweets {
