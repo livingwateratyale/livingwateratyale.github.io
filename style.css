@@ -95,17 +95,15 @@ img.icons:hover {
 	opacity:1.0;
 }
 
-.mainnav {
+
+
+.mainnav ul {
 	position: absolute;
 	top: 300px;
 	left: 0px;
 	display: inline;
 	width: 900px;
 	background-color: #FFFFFF;
-
-}
-
-.mainnav ul {
 	font-family: Lovelo_Black, Sintony;
 	font-weight: normal;
 	text-transform: uppercase;
@@ -113,7 +111,7 @@ img.icons:hover {
 	line-height: 30px;
 	height: 30px;
 	list-style-type: none;
-	margin: auto;
+	margin: 0 auto;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
