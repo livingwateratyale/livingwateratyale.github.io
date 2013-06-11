@@ -33,7 +33,7 @@ body {
 
 .container {
 	width: 900px;
-	height: 800px;
+	height: 900px;
 	margin-left: auto;
 	margin-right: auto;
 	position: absolute;
@@ -132,7 +132,6 @@ img.icons:hover {
 	list-style: none;
  	display: inline;
  	padding-left: 0px;
- 	border-bottom: 8px solid #1C94FC;
  }
 
 .mainnav a {
@@ -142,8 +141,7 @@ img.icons:hover {
 }
 
 .mainnav a:hover {
-	color: #000000;
-	border-bottom: 8px solid #1C94FC;
+	color: #1C94FC;
 	z-index: 500;
 }
 
@@ -161,7 +159,7 @@ img.icons:hover {
 
 .about-us {
 	width: 400px;
-	height: 400px;
+	height: 250px;
 	float: left;
 	margin: 20px;
 	display: block;
@@ -173,12 +171,12 @@ img.icons:hover {
 }
 
 .about-us-content {
-	margin: 10px 20px;
+	margin: 10px 20px 0px;
 	overflow: auto;
-	height: 300px;
+	height: 200px;
 	z-index: 100;
 	color: #000000;
-	background-color: #FAFAFA;
+	background-color: #ffffff;
 	padding: 10px;
 	border-radius: 15px;
 }
@@ -215,7 +213,8 @@ footer {
 .twitterfeed {
 	display: inline-block;
 	width: 400px;
-	margin: 0px 35px 0px 0px;
+	height: 300px;
+	margin: 20px;
 }
 
 #ourtweets {
@@ -227,9 +226,14 @@ footer {
 }
 
 .bible-verse {
-	display: inline-block;
-	margin-top: 40px;
+	display: block;
+	float: left;
+	margin-top: 20px;
 	width: 275px;
+	position: absolute;
+	top: 330px;
+	left: 330px;
+
 }
 
 #water {
