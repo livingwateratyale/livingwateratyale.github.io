@@ -28,6 +28,7 @@ body {
  	text-align: center;
  	width: 900px;
  	margin: 0 auto;
+ 	background-color: #000000;
 }
 
 .container {
@@ -86,6 +87,12 @@ body {
 .social-links .icons {
 	margin-left: 5px;
 	width: 50px;
+	opacity: 0.6;
+	border: 0px;
+}
+
+img.icons:hover {
+	opacity:1.0;
 }
 
 .mainnav {
@@ -96,7 +103,7 @@ body {
 	display: inline;
 	width: 900px;
 	background-color: #FFFFFF;
-	font-family: Lovelo_Black;
+	font-family: Lovelo_Black, Sintony;
 	font-weight: normal;
 	font-size: 30px;
 	z-index: 100;
@@ -138,6 +145,8 @@ body {
 	border-bottom: 8px solid #1C94FC;
 }
 
+
+
 .main-content {
 	position: absolute;
 	top: 350px;
@@ -152,11 +161,11 @@ body {
 	height: 400px;
 	float: left;
 	margin: 20px;
-	display: inline;
+	display: block;
 	font-size: 14px;
 	border: none;
 	text-align: justify;
-	font-family: 'Tenor Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	z-index: 30;
 }
 
@@ -165,14 +174,14 @@ body {
 	overflow: auto;
 	height: 300px;
 	z-index: 100;
-	color: #FFFFFF;
-	background-color: #52575C;
+	color: #000000;
+	background-color: #FAFAFA;
 	padding: 10px;
 	border-radius: 15px;
 }
 
 .title { 
-	font-family: Lovelo_Line_Light;
+	font-family: Lovelo_Line_Light, Sintony;
 	font-size: 35px;
 	text-align: center;
 	-webkit-text-stroke-width: 1px;
@@ -190,7 +199,7 @@ footer {
 
 #footer-text {
 	margin-top: 8px;
-	font-family: 'Tenor Sans';
+	font-family: 'Raleway';
 	color: white;
 	font-size: 12px;
 }
@@ -203,11 +212,11 @@ footer {
 .twitterfeed {
 	display: inline-block;
 	width: 400px;
-	margin: 0px 20px;
+	margin: 0px 35px 0px 0px;
 }
 
 #ourtweets {
-	font-family: Lovelo_Line_Light;
+	font-family: Lovelo_Line_Light, Sintony;
 	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     font-size: 35px;
@@ -216,24 +225,28 @@ footer {
 
 .bible-verse {
 	display: inline-block;
-	margin: 40px;
+	margin-top: 40px;
+	width: 275px;
 }
 
 #water {
-	font-family: Lovelo_Black;
+	font-family: Lovelo_Black, Sintony;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 #john {
-	font-family: Lovelo_Black;
+	font-family: Lovelo_Black, Sintony;
 	font-size: 12px;
 }
 .bible-verse-text {
 	width: 250px;
-	float:left;
-	font-family: Cylburn;
+	float: left;
+	font-family: Cylburn, 'Dancing Script';
 	font-size: 32px;
 	text-align: center;
 	line-height: 25px;
+	display: block;
 }
 
 .divide {
