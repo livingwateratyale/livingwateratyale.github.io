@@ -113,7 +113,7 @@ img.icons:hover {
 .mainnav ul {
 
 	list-style-type: none;
-	margin: 0 auto;
+	margin: 5px auto;
 	padding-top: 8px;
 	text-align: center;
 	-webkit-margin-before: 0;
@@ -252,3 +252,4 @@ footer {
 .divide {
 	display: inline-block;
 }
+
