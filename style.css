@@ -138,11 +138,13 @@ img.icons:hover {
 .mainnav a {
 	text-decoration: none;
 	color: #000000;
+	z-index: 500;
 }
 
 .mainnav a:hover {
 	color: #000000;
 	border-bottom: 8px solid #1C94FC;
+	z-index: 500;
 }
 
 
@@ -154,6 +156,7 @@ img.icons:hover {
 	display: block;
 	background-color: #F2F2F2;
 	width: 900px;
+	z-index: 120;
 }
 
 .about-us {
