@@ -103,18 +103,18 @@ img.icons:hover {
 	display: inline;
 	width: 900px;
 	background-color: #FFFFFF;
-	font-family: Lovelo_Black, Sintony;
-	font-weight: normal;
-	font-size: 30px;
-	z-index: 100;
-	text-transform: uppercase;
+
 }
 
 .mainnav ul {
-
+	font-family: Lovelo_Black, Sintony;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 30px;
 	list-style-type: none;
 	margin: 5px auto;
-	padding-top: 8px;
+	padding-top: 10px;
 	text-align: center;
 	-webkit-margin-before: 0;
 	-webkit-margin-after: 0;
