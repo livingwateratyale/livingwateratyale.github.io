@@ -1,3 +1,53 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
 @font-face
 {
 	font-family: Lovelo_Black;
@@ -83,23 +133,22 @@ body {
 /*	left: auto;
 	right: auto;*/
 	width: 900px;
-	background-color: #FFFFFF;
-	font-family: 'Lovelo_Black', 'Sintony';
-	font-weight: normal;
-	font-size: 30px;
+	background-color: #fff;
 	z-index: 200;
 	text-transform: uppercase;
-	border: 0px;
 }
 
 .mainnav ul {
 	padding-left: 0;
 	list-style-type: none;
-	margin: 0 auto;
+	margin: 13px 0px 13px;
+	background-color: transparent;
 	text-align: center;
-	-webkit-margin-before: 13px;
-	-webkit-margin-after: 0;
-	-webkit-padding-start: 0px;
+	max-height: 50px;
+	max-width: 900px;
+	font-family: 'Lovelo_Black', 'Sintony';
+	font-weight: normal;
+	font-size: 30px;
 }
 
 .mainnav ul li.first {
