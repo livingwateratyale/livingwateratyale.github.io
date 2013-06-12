@@ -313,7 +313,7 @@ footer {
 	width: 250px;
 	float: left;
 	font-family: Cylburn, 'Pinyon Script';
-	font-size: 32px;
+	font-size: 32px, 25px;
 	text-align: center;
 	line-height: 25px;
 }
