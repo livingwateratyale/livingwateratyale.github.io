@@ -118,6 +118,7 @@ img.icons:hover {
 	height: 50px;
 	top: 13px;
 	left: 0px;
+	bottom: 13px;
 	z-index: 100;
 	margin: 0;
 	-webkit-padding-start: 0px;
