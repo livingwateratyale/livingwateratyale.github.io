@@ -189,6 +189,12 @@ body {
 	width: 250px;
 	float: left;
 	margin: 10px;
+	-o-box-shadow:      9px 9px 15px #555;
+-icab-box-shadow:   9px 9px 15px #555;
+-khtml-box-shadow:  9px 9px 15px #555;
+-moz-box-shadow:    9px 9px 15px #555;
+-webkit-box-shadow: 9px 9px 15px #555;
+box-shadow:         9px 9px 15px #555;
 }
 
 
