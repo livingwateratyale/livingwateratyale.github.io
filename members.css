@@ -234,7 +234,7 @@ img.faces a:hover {
 }
 
 .faces {
-	margin-left: 0px;
+	margin-left: 30px;
 	width: 850px;
 	display: block;
 }
@@ -285,7 +285,7 @@ img.faces a:hover {
 	visibility: hidden;
 	background-color: #1C94FC;
 	opacity: 0.7;
-	top: 194px;
+	top: 190px;
 	left: 200px;
 	position: absolute;
 	z-index: 100;
