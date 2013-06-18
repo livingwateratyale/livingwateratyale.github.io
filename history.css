@@ -113,7 +113,6 @@ body {
 	background-color: #1C94FC;
 	width:  150px;
 	height: 150px;
-	border: 0px;
 }
 
 .livingwaterlogo {
@@ -174,13 +173,13 @@ body {
 
 .photos {
 	margin: 10px auto;
-	width: 700px;
+	width: 650px;
 	overflow-x: scroll;
 	overflow-y: hidden;
 }
 
 .photos ul {
-	width: 1100px;
+	width: 1050px;
 	height: 300px;
 	list-style: none;
 }
@@ -188,13 +187,13 @@ body {
 .photos img {
 	width: 250px;
 	float: left;
-	margin: 10px;
-	-o-box-shadow:      9px 9px 15px #555;
--icab-box-shadow:   9px 9px 15px #555;
--khtml-box-shadow:  9px 9px 15px #555;
--moz-box-shadow:    9px 9px 15px #555;
--webkit-box-shadow: 9px 9px 15px #555;
-box-shadow:         9px 9px 15px #555;
+	margin: 10px 5px;
+		-o-box-shadow:   10px #555;
+	 -icab-box-shadow:   10px #555;
+	-khtml-box-shadow:   10px #555;
+	  -moz-box-shadow:   10px #555;
+   -webkit-box-shadow:   10px #555;
+	       box-shadow:   10px #555;
 }
 
 

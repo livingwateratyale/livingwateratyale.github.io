@@ -277,8 +277,7 @@ img.faces a:hover {
 }
 
 .figure:hover + .bio-bubble {
-	visibility: visible;
-}
+	visibility: visible; }
 
 
 .bio-bubble {
@@ -301,12 +300,15 @@ img.faces a:hover {
 }
 
 .bio-text {
-	margin-top: 20%;
 	font-size: 20px;
 	color: #fff;
 	opacity: 1;
-	z-index: 200;
+	z-index: 300;
 	font-family: 'Raleway';
+	padding-top: 20%;
+	margin: auto;
+	display: block;
+
 }
 
 .names-for-bios {
