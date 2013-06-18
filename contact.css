@@ -84,7 +84,7 @@ body {
 
 .container {
 	width: 900px;
-	height: 900px;
+	height: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 	position: absolute;
@@ -331,7 +331,7 @@ a {
 .figure2 {
 	z-index: 4;
 	position: absolute;
-	top: 650px;
+	top: 680px;
 	left: 600px;
 	border: 0px;
 	-webkit-border-radius: 50%;
