@@ -179,13 +179,13 @@ body {
 }
 
 .photos ul {
-	width: 1050px;
+	width: 1400px;
 	height: 300px;
 	list-style: none;
 }
 
 .photos img {
-	width: 250px;
+	height: 270px;
 	float: left;
 	margin: 10px 5px;
 		-o-box-shadow:   10px #555;
@@ -230,6 +230,10 @@ footer {
 	font-size: 50px;
 	font-color: #000000;
 	line-height: 50px;
+}
+
+.thirtyyears {
+	height: ;
 }
 
 .history {
