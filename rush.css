@@ -418,4 +418,86 @@ a {
 	font-family: Raleway;
 }
 
-.
+.droplets-say {
+	width: 100%;
+	height: 400px;
+	background-color: #F2F2F2;
+	display: block;
+	font-size: 50px;
+	font-family: Raleway;
+}
+
+.testimony {
+	padding-top: 30px;
+}
+
+.join-us {
+	width: 100%;
+	height: 400px;
+	background-color: #1C94FC;
+	display: block;
+	font-size: 50px;
+	font-family: Raleway;
+	background-image: url(tap-night.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 60%;
+}
+
+.open-arms {
+	font-weight: bold;
+	padding-top: 30px;
+	padding-right: 30px;
+	display: block;
+	height: 50px;
+	color: #F2F2F2;
+	text-align: right;
+}
+
+.we-will {
+	width: 350px;
+	padding-top: 10px;
+	font-size: 25px;
+	color: #000;
+	display: block;
+	margin-left: 510px;
+	margin-top: 30px;
+	text-align: right;
+}
+
+img.q-mark {
+	float: left;
+	margin-right:5px;
+	margin-bottom: -4px;
+}
+
+.blurb {
+	font-size: 15px;
+
+	text-align: justify;
+	float: left;
+	line-height: 18px;
+}
+
+#zach {
+	margin-left: 50px;
+	margin-top: 20px;
+	float: left;
+	width: 700px;
+}
+
+#blurb-author {
+	font-style: italic;
+}
+
+img.back-quotation-mark {
+	float:right;
+	margin-top: -5px;
+}
+
+#andres-blurb {
+	float:right;
+	margin-right: 50px;
+	margin-top: 30px;
+	width: 650px;
+}
