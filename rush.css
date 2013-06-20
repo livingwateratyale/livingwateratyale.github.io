@@ -370,6 +370,69 @@ a {
 	background-repeat: no-repeat;
 }
 
+.rush-managers {
+	text-align: center;
+	height: 400px;
+	width: 100%;
+	font-family: Raleway;
+	display: block;
+	background-color: #F2F2F2;
+	background-image: url(rush-managers.png);
+	background-size: 90%;
+	background-position: 70% 100%;
+	background-repeat: no-repeat;
+}
+
+.look-for-these-guys {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 10px;
+}
+
+.last-words {
+	text-align: center;
+	height: 400px;
+	width: 100%;
+	font-family: Raleway;
+	display: block;
+	background-color: #1C94FC;
+	color: #F2F2F2;
+	line-height: 30px;
+	font-size: 25px;
+}
+
+.last-words a:hover {
+	color: white;
+}
+
+
+.last-words-heading {
+	font-size: 50px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	line-height: 55px;
+	padding-top: 25px;
+}
+
+.good-luck {
+	font-size: 40px;
+	line-height: 40px;
+	margin: 15px auto;
+	color: #000;
+	font-family: Cylburn, 'Pinyon Script';
+}
+
+#good-luck {
+	font-family: Lovelo_Black;
+	color: #fff;
+}
+
+.according-to-sgc {
+	font-size: 12px;
+	width: 500px;
+	margin: 5px auto;
+}
+
 .what-is-rush a {
 	text-decoration: underline;
 }
