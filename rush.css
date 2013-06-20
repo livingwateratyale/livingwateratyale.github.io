@@ -410,6 +410,7 @@ a {
 	font-size: 50px;
 	margin-bottom: 20px;
 	line-height: 55px;
+	font-weight: bold;
 	padding-top: 25px;
 }
 
@@ -422,8 +423,9 @@ a {
 }
 
 #good-luck {
-	font-family: Lovelo_Black;
+	font-family: Raleway;
 	color: #fff;
+	font-weight: bold;
 }
 
 .according-to-sgc {
