@@ -408,7 +408,6 @@ a {
 
 .last-words-heading {
 	font-size: 50px;
-	margin-top: 50px;
 	margin-bottom: 20px;
 	line-height: 55px;
 	padding-top: 25px;
@@ -416,8 +415,8 @@ a {
 
 .good-luck {
 	font-size: 40px;
-	line-height: 40px;
-	margin: 15px auto;
+	line-height: 30px;
+	margin: 30px auto 0px;
 	color: #000;
 	font-family: Cylburn, 'Pinyon Script';
 }
