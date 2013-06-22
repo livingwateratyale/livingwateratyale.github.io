@@ -396,35 +396,31 @@ a {
 	font-family: Raleway;
 	display: block;
 	background-color: #1C94FC;
-	color: #F2F2F2;
+	color: #000;
 	line-height: 30px;
 	font-size: 25px;
 }
 
+.last-words a {
+	color: #F2F2F2;
+}
+
 .last-words a:hover {
-	color: white;
+	color: #fff;
 }
 
 
 .last-words-heading {
 	font-size: 50px;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 	line-height: 55px;
 	font-weight: bold;
-	padding-top: 25px;
-}
-
-.good-luck {
-	font-size: 40px;
-	line-height: 30px;
-	margin: 30px auto 0px;
-	color: #000;
-	font-family: Cylburn, 'Pinyon Script';
-}
-
-#good-luck {
-	font-family: Raleway;
+	padding-top: 50px;
 	color: #fff;
+}
+
+
+a#main-link {
 	font-weight: bold;
 }
 
@@ -564,4 +560,31 @@ img.back-quotation-mark {
 	margin-right: 50px;
 	margin-top: 30px;
 	width: 650px;
+}
+
+.last {
+	width: 100%;
+	height: 400px;
+	display: block;
+	font-size: 50px;
+	font-family: Raleway;
+	position: relative;
+}
+
+#good-luck {
+	font-family: Raleway;
+	color: #1C94FC;
+	font-weight: bold;
+}
+
+.good-luck {
+	font-size: 40px;
+	line-height: 30px;
+	height: 50px;
+	position: absolute;
+	top: 150px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-family: Cylburn, 'Pinyon Script';
 }

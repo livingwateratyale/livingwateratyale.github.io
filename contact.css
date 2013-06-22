@@ -82,9 +82,13 @@ body {
 
 }
 
+a:hover {
+	color: #1C94FC;
+}
+
 .container {
 	width: 900px;
-	height: 1250px;
+	height: 1350px;
 	margin-left: auto;
 	margin-right: auto;
 	position: absolute;
@@ -358,3 +362,20 @@ a {
 .line {
 	margin: 30px;
 }
+
+.interested {
+	font-size: 40px;
+	font-family: Cylburn, 'Pinyon Script';
+	width: 450px;
+	line-height: 30px;
+	margin: 20px auto 0px;
+	text-align: center;
+	color: #000;
+}
+
+.interested a{
+	color: #1C94FC;
+}
+
+.interested a:hover {
+	color: #000;
